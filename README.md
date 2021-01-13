@@ -1,7 +1,5 @@
 [:arrow_left: Retour vers le portfolio](https://github.com/ThibaultLanthiez/Portfolio)
 
-<img src="https://github.com/ThibaultLanthiez/Regression-prix-vente-biens-immobiliers/blob/main/image-reg.PNG" width="140%" and height="120%"/>
-
 # Prédire le nombre de décès quotidiens dus au Covid-19
 
 Pendant l'été 2020, je me posé la question si un modèle de machine learning pouvait prédire le nombre de décès quotidiens dus au Covid-19. Cela afin de mieux anticiper les évolution posssible de l'épidémie.
@@ -14,7 +12,7 @@ Dans le graphique ci-dessous, l''entraînement et la validation se sont fait sur
 
 Le test a ensuite été effectué sur chaque pays (ici le Royaume-Uni) en donnant l'historique entre le 21 mars et le 19 avril 2020 (30 jours) et en comparant les prédictions et la réalité pour les 30 jours suivants (entre le 20 avril et le 19 juin 2020). On remarque que le modèle arrive bien à prédire la chute du nombre de décès quotidiens bien que ces derniers étaient en forte augmentation.
 
-
+<img src="https://github.com/ThibaultLanthiez/Prediction-nombre-deces-quotidiens-Covid-19/blob/main/graphique.png" width="140%" and height="120%"/>
 
 # Code
 
