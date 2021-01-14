@@ -2,11 +2,11 @@
 
 # Prédire le nombre de décès quotidiens dus au Covid-19
 
-Pendant l'été 2020, je me posé la question si un modèle de machine learning pouvait prédire le nombre de décès quotidiens dus au Covid-19. Cela afin de mieux anticiper les évolution posssible de l'épidémie.
+Pendant l'été 2020, je me posé la question si un modèle de machine learning pouvait prédire le nombre de décès quotidiens dus au Covid-19. Cela afin de mieux anticiper les évolutions possibles de l'épidémie.
 
 J'ai donc téléchargé les données de la situation sanitaire pour chaque pays. Je les ai mis en forme pour pouvoir les analyser puis pour créer des fenêtres de 2 mois. Le modèle renvoie 30 jours de prédictions en fonction de données multivariées (nombre de nouveaux cas quotidiens, nombre de décès quotidiens et nombre de décès cumulés) de 30 jours d'historique.  
 
-Ce modèle est un réseau de neurones récurrents (RNN) développé avec la bibliothèque TensorFlow.Keras en langage Python.
+Ce modèle est un réseau de neurones récurrents (RNN) développé avec la bibliothèque TensorFlow.Keras en langage python.
 
 Dans le graphique ci-dessous, l''entraînement et la validation se sont fait sur les données de nombreux pays jusqu'au 19 avril 2020.
 
